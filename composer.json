@@ -2,13 +2,7 @@
     "name": "xenon/multicourier",
     "description": "This is a courier api endpoints library for interacting such as e-courier, pathao, paperfly etc",
     "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Ariful islam",
-            "email": "arif98741@gmail.com"
-        }
-    ],
+    "license": "MIT",    
     "require": {
         "guzzlehttp/guzzle": "^6.3|^7.3"
     },

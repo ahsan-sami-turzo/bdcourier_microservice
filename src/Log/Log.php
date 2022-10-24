@@ -1,12 +1,12 @@
 <?php
 
-namespace Xenon\MultiCourier\Log;
+namespace Radon\MultiCourier\Log;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
-use Xenon\MultiCourier\Models\MultiCourierLog;
+use Radon\MultiCourier\Models\MultiCourierLog;
 
 
 class Log

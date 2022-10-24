@@ -1,6 +1,6 @@
 <?php
 
-namespace Xenon\MultiCourier\Models;
+namespace Radon\MultiCourier\Models;
 
 class MultiCourierLog
 {

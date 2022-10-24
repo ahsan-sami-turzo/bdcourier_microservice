@@ -1,4 +1,4 @@
-<?php namespace Xenon\MultiCourier;
+<?php namespace Radon\MultiCourier;
 
 use Exception;
 

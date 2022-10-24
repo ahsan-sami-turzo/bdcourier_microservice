@@ -1,26 +1,18 @@
 <?php
-/*
- *  Last Modified: 6/29/21, 12:06 AM
- *  Copyright (c) 2021
- *  -created by Ariful Islam
- *  -All Rights Preserved By
- *  -If you have any query then knock me at
- *  arif98741@gmail.com
- *  See my profile @ https://github.com/arif98741
- */
 
-namespace Xenon\MultiCourier\Provider;
+
+namespace Radon\MultiCourier\Provider;
 
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Support\Facades\Storage;
-use Xenon\MultiCourier\Courier;
-use Xenon\MultiCourier\Handler\ErrorException;
-use Xenon\MultiCourier\Handler\ParameterException;
-use Xenon\MultiCourier\Handler\RequestException;
-use Xenon\MultiCourier\Request;
+use Radon\MultiCourier\Courier;
+use Radon\MultiCourier\Handler\ErrorException;
+use Radon\MultiCourier\Handler\ParameterException;
+use Radon\MultiCourier\Handler\RequestException;
+use Radon\MultiCourier\Request;
 
 class Pathao extends AbstractProvider
 {
@@ -60,7 +52,7 @@ class Pathao extends AbstractProvider
         $config = $this->senderObject->getConfig();
         $courierConfig = config('courier');
         if ($courierConfig == null) {
-            throw new ErrorException("No multicourier.php file exist inside config directory. You should publish vendor Xenon\MultiCourier\MultiCourierServiceProvider");
+            throw new ErrorException("No multicourier.php file exist inside config directory. You should publish vendor Radon\MultiCourier\MultiCourierServiceProvider");
         }
 
         $existance = Storage::disk('local')->exists('pathao_bearer_token.json');

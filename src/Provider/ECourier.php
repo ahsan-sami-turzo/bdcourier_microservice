@@ -1,22 +1,14 @@
 <?php
-/*
- *  Last Modified: 6/29/21, 12:06 AM
- *  Copyright (c) 2021
- *  -created by Ariful Islam
- *  -All Rights Preserved By
- *  -If you have any query then knock me at
- *  arif98741@gmail.com
- *  See my profile @ https://github.com/arif98741
- */
 
-namespace Xenon\MultiCourier\Provider;
+
+namespace Radon\MultiCourier\Provider;
 
 use GuzzleHttp\Exception\GuzzleException;
-use Xenon\MultiCourier\Courier;
-use Xenon\MultiCourier\Handler\ErrorException;
-use Xenon\MultiCourier\Handler\ParameterException;
-use Xenon\MultiCourier\Handler\RequestException;
-use Xenon\MultiCourier\Request;
+use Radon\MultiCourier\Courier;
+use Radon\MultiCourier\Handler\ErrorException;
+use Radon\MultiCourier\Handler\ParameterException;
+use Radon\MultiCourier\Handler\RequestException;
+use Radon\MultiCourier\Request;
 
 class ECourier extends AbstractProvider
 {

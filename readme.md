@@ -6,13 +6,13 @@ Bangladeshi courier service api endpoints library for i.e., e-courier, pathao
 ### Step 1:
 
 ```
-composer require xenon/multicourier
+composer require radon/multicourier
 ```
 
 ### Step 2:
 
 ```
-php artisan vendor:publish --provider=Xenon\MultiCourier\MultiCourierServiceProvider
+php artisan vendor:publish --provider=Radon\MultiCourier\MultiCourierServiceProvider
 ```
 
 ### Step 3:
@@ -34,8 +34,8 @@ ECOURIER_ENVIRONMENT='xxxx'
 #### Sample Code Requesting to E-courier
 
 <pre>
-use Xenon\MultiCourier\Provider\ECourier;
-use Xenon\MultiCourier\Courier;
+use Radon\MultiCourier\Provider\ECourier;
+use Radon\MultiCourier\Courier;
 
 
 $courier = Courier::getInstance();
@@ -52,8 +52,8 @@ $cities = $courier->getCities(); //get city
 
 <pre>
 //place order
-use Xenon\MultiCourier\Provider\ECourier;
-use Xenon\MultiCourier\Courier;
+use Radon\MultiCourier\Provider\ECourier;
+use Radon\MultiCourier\Courier;
 
 
 $courier = Courier::getInstance();
@@ -98,8 +98,8 @@ $response = $courier->placeOrder();
 #### Sample Code Requesting to Pathao
 
 <pre>
-use Xenon\MultiCourier\Courier;
-use Xenon\MultiCourier\Provider\Pathao;
+use Radon\MultiCourier\Courier;
+use Radon\MultiCourier\Provider\Pathao;
 
 $courier = Courier::getInstance();
 $courier->setProvider(Pathao::class, 'local'); /* local/production */

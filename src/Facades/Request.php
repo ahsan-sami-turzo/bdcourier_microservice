@@ -1,11 +1,11 @@
-<?php namespace Xenon\MultiCourier\Facades;
+<?php namespace Radon\MultiCourier\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 
 /**
- * @method static Xenon\MultiCourier\Request get($requestUrl, array $query, bool $verify = false, $timeout = 10.0)
- * @see \Xenon\MultiCourier\Request
+ * @method static Radon\MultiCourier\Request get($requestUrl, array $query, bool $verify = false, $timeout = 10.0)
+ * @see \Radon\MultiCourier\Request
  */
 class Request extends Facade
 {

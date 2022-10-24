@@ -1,11 +1,11 @@
-<?php namespace Xenon\MultiCourier\Facades;
+<?php namespace Radon\MultiCourier\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static \Xenon\MultiCourier\MultiCourier via(string $provider)
+ * @method static \Radon\MultiCourier\MultiCourier via(string $provider)
  *
- * @see \Xenon\MultiCourier\MultiCourier
+ * @see \Radon\MultiCourier\MultiCourier
  */
 class MultiCourier extends Facade
 {

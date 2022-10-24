@@ -1,5 +1,5 @@
 {
-    "name": "xenon/multicourier",
+    "name": "radon/multicourier",
     "description": "This is a courier api endpoints library for interacting such as e-courier, pathao, paperfly etc",
     "type": "library",
     "license": "MIT",    
@@ -8,13 +8,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Xenon\\MultiCourier\\": "src/"
+            "Radon\\MultiCourier\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Xenon\\MultiCourier\\MultiCourierServiceProvider"
+                "Radon\\MultiCourier\\MultiCourierServiceProvider"
             ],
             "aliases": {
 

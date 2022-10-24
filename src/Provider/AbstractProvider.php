@@ -1,15 +1,7 @@
 <?php
-/*
- *  Last Modified: 17/01/22, 15:48 PM
- *  Copyright (c) 2021
- *  -created by Ariful Islam
- *  -All Rights Preserved By
- *  -If you have any query then knock me at
- *  arif98741@gmail.com
- *  See my profile @ https://github.com/arif98741
- */
 
-namespace Xenon\MultiCourier\Provider;
+
+namespace Radon\MultiCourier\Provider;
 
 
 use Illuminate\Http\JsonResponse;

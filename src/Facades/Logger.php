@@ -1,19 +1,19 @@
-<?php namespace Xenon\MultiCourier\Facades;
+<?php namespace Radon\MultiCourier\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 
 /**
- * @method static Xenon\MultiCourier\Log\Log createLog(array $data)
- * @method static Xenon\MultiCourier\Log\Log viewLastLog()
- * @method static Xenon\MultiCourier\Log\Log viewAllLog()
- * @method static Xenon\MultiCourier\Log\Log logByProvider()
- * @method static Xenon\MultiCourier\Log\Log logByDefaultProvider()
- * @method static Xenon\MultiCourier\Log\Log total()
- * @method static Xenon\MultiCourier\Log\Log toArray()
- * @method static Xenon\MultiCourier\Log\Log toJson()
+ * @method static Radon\MultiCourier\Log\Log createLog(array $data)
+ * @method static Radon\MultiCourier\Log\Log viewLastLog()
+ * @method static Radon\MultiCourier\Log\Log viewAllLog()
+ * @method static Radon\MultiCourier\Log\Log logByProvider()
+ * @method static Radon\MultiCourier\Log\Log logByDefaultProvider()
+ * @method static Radon\MultiCourier\Log\Log total()
+ * @method static Radon\MultiCourier\Log\Log toArray()
+ * @method static Radon\MultiCourier\Log\Log toJson()
  *
- * @see \Xenon\MultiCourier\Log\Log
+ * @see \Radon\MultiCourier\Log\Log
  */
 class Logger extends Facade
 {
